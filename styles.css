@@ -83,15 +83,18 @@ h3 {
     display: block;
     width: auto;
     justify-content: center;
-    margin-top: 5px;
     height: 500px;
 }
-.infocontainer{
+.infocontainer, 
+.infocontainergallery{
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 75px;
+}
+.infocontainergallery {
+    height: 275px;
     gap: 50px;
 }
 .infotext{
@@ -103,7 +106,8 @@ h3 {
     display: block;
     flex: 1 1 1;
     justify-content: center;
-    height: 10px;
+    margin-top: 50px;
+    height: auto;
 }
 .infopictureframe {
     width: 170px;
