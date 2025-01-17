@@ -79,3 +79,40 @@ h3 {
     border-color: #3882F6;
     background-color: #3882F6;
 }
+.gallery{
+    display: block;
+    width: auto;
+    justify-content: center;
+    margin-top: 5px;
+    height: 500px;
+}
+.infocontainer{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    gap: 50px;
+}
+.infotext{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.infopicturecontainer {
+    display: block;
+    flex: 1 1 1;
+    justify-content: center;
+    height: 10px;
+}
+.infopictureframe {
+    width: 170px;
+    height: 170px;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+}
+.secondarytext.align{
+    text-align: center;
+    width: 170px;
+    color: grey;
+}
