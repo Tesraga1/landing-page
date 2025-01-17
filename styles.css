@@ -83,7 +83,7 @@ h3 {
     display: block;
     width: auto;
     justify-content: center;
-    height: 500px;
+    height: 450px;
 }
 .infocontainer, 
 .infocontainergallery{
@@ -119,4 +119,23 @@ h3 {
     text-align: center;
     width: 170px;
     color: grey;
+}
+
+.quotesection{
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quotetext{
+    font-size: 36px;
+    width: 800px;
+    margin:0;
+    font-weight: light;
+    font-style: italic;
+    text-align: center;
+    color: #1F2937;
 }
